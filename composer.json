@@ -1,7 +1,7 @@
 {
     "name": "bshelling/bamboo",
     "type": "library",
-    "description":"Simple twig templating package for php projects",
+    "description":"Simple twig templating package for Laravel Applications",
     "license": "MIT",
     "autoload": {
         "psr-4": {
