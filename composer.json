@@ -1,6 +1,6 @@
 {
     "name": "bshelling/bamboo",
-    "type": "project",
+    "type": "library",
     "description":"Simple twig templating package for php projects",
     "license": "MIT",
     "autoload": {
