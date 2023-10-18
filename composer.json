@@ -1,0 +1,27 @@
+{
+    "name": "bshelling/bamboo",
+    "type": "project",
+    "description":"Simple twig templating package for php projects",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bshelling\\Bamboo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Brandon Shelling",
+            "email": "info@gusotechnologies.com"
+        }
+    ],
+    "require": {
+        "php":">=8.2",
+        "twig/twig": "^3.7.1"
+    },
+    "minimum-stability": "stable",
+    "scripts":{
+        "post-install-cmd": [
+            "mkdir templates"
+        ]
+    }
+}
