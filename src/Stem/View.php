@@ -12,7 +12,7 @@ class View {
 
 	public static function render($template = 'index.twig' , $data = []){
 	
-		$templateDir = dirname(__DIR__,4).'/templates';
+		$templateDir = dirname(__DIR__,5).'/templates';
 		$loader = new FilesystemLoader($templateDir);
 		$twigEnv = new Environment($loader);
 		echo $twigEnv->render($template,$data);
