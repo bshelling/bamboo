@@ -18,10 +18,5 @@
         "php":">=8.2",
         "twig/twig": "^3.7.1"
     },
-    "minimum-stability": "stable",
-    "scripts":{
-        "post-install-cmd": [
-            "mkdir templates"
-        ]
-    }
+    "minimum-stability": "stable"
 }
